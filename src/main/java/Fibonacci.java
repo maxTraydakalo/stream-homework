@@ -12,6 +12,8 @@ import java.util.stream.Stream;
 
 public class Fibonacci {
     public static void main(String[] args) {
+        String a = "as";
+        String b = null;
 //        ArrayList<Integer> arrayList = new ArrayList<>();
 //        arrayList.add(1);
 //        arrayList.add(2);
@@ -24,8 +26,11 @@ public class Fibonacci {
 //        System.out.println(uniqueOccurrences(new int[]{-3, 0, 1, -3, 1, 1, 1, -3, 10, 0}));
 //        System.out.println(uniqueOccurrences(new int[]{1, 2, 2, 1, 1, 3}));
 //        System.out.println(uniqueOccurrences(new int[]{1, 2}));
-       Arrays.stream(constructRectangle(1)).forEach(System.out::println);
 
+        System.out.println(null instanceof char[]);
+        System.out.println();
+        Arrays.stream(constructRectangle(1)).forEach(System.out::println);
+        System.out.println("hello world");
     }
 
     public int[] decompressRLElist(int[] nums) {
